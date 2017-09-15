@@ -1,0 +1,1 @@
+web: gunicorn goats.wsgi --log-file -
