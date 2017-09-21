@@ -24,7 +24,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav style="background: #000000;" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav style="background: #1b1b1b;" class="navbar black-section navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Helena Narowski</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,17 +38,21 @@
               </a>
             </li>  -->
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#aboutme">Meet Me</a>
+            </li>              
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-            </li>                   
+            </li>       
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>                            
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#startup">Startup</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#hackathons">Hackathons</a>
             </li>               
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#aboutme">About Me</a>
-            </li>            
+          
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
@@ -58,15 +62,63 @@
     </nav>
 
     <header class="masthead">
-      <div class="overlay">
+      <div class="container">
+        <div class="intro-text">
+          <h2 class="display-4 text-white">Helena Narowski</h2>
+          <h4 class="display-5 text-white">Software Developer Portfolio</h4>
+        <!--   <p class="text-white">From the front-end to the back-end, I'm passionate about making all the ends.</p> -->
+<!--           <div class="intro-lead-in">Helena Narowski</div>
+          <div class="intro-heading">Hi there.</div> -->
+          <div style="padding-top: 60px;">
+            <a class="btn btn-xl js-scroll-trigger" href="#aboutme">Let's Go</a>
+          </div> 
+        </div>
+       
+      </div>      
+<!--       <div class="overlay">
         <div class="container">
           <h2 class="display-4 text-white">Helena Narowski</h2>
           <h4 class="display-5 text-white">Software Developer Portfolio</h4>
         </div>
-      </div>
+      </div> -->
     </header>
 
-    <section>
+    <section class="about-me-section">
+
+      <div class="container" id="aboutme">
+        <div class="row align-items-center" >
+
+<!--           <div class="col-md-12">
+
+            <hr>
+
+
+        </div>  -->       
+        <div class="row align-items-center">
+          <div class="col-md-4 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="css/img/headshot.JPG" alt="">
+            </div>
+          </div>
+          <div class="col-md-8 order-1">
+             <div class="p-5">
+              <h2 class="display-4">Hi, I'm Helena.</h2>
+              <hr>
+        
+            </div>            
+            <div class="p-5">
+<!--              <p> 
+                I like my development like my pancakes. Full stack. 
+             </p> -->
+              <h2 class="display-5">I like my development like my pancakes. Full stack. </h2>
+<!--               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="black-section" style="padding-bottom:0px !important;">
       <div class="container" id="experience">
         <div class="row align-items-center">
 <!--           <div class="col-md-6 order-2">
@@ -74,15 +126,174 @@
           </div> -->
           <div class="col-md-12">
              <div class="p-5">
-              <h2 class="display-4 text-center">Experience</h2>
+              <h2 class="display-4 text-center text-white">Experience</h2>
         
             </div>
             <hr>
 
 
         </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>January, 2014</h4>
+                    <h4 class="subheading">Begin at Michigan State University</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>August 2014 - May 2015 </h4>
+                    <h4 class="subheading">Land First Programming Job as a Python Developer</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>May 2015 - August 2015</h4>
+                    <h4 class="subheading">Internship with Crowe Horwath in Chicago</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Jan 2016 - Jan 2017</h4>
+                    <h4 class="subheading">Grew Passion in Teaching by Becoming a Learning Assistant for Physics</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>May 2016 - August 2016</h4>
+                    <h4 class="subheading">Another Successful Internship With Crowe!</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+               
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>January 2017 - current</h4>
+                    <h4 class="subheading">Begin Solo Project for Physics Department as Web App Developer</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li> 
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>January 2017</h4>
+                    <h4 class="subheading">Pitched in The Hatching and took home $1000 in Winnings</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>                                   
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>April 2017</h4>
+                    <h4 class="subheading">Kudo is Officially Registered as an LLC!</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>                 
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>May 2017 - August 2017 </h4>
+                    <h4 class="subheading">Internship with General Mills in Minneapolis</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>   
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>December 2017 </h4>
+                    <h4 class="subheading">Graduate from MSU with a Bachelor's Degree in Computer Science</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>                    
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Be Part
+                    <br>Of My
+                    <br>Story!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>        
       </div>
-        <div class="row align-items-center">
+<!--   <div class="container">
+    <hr class="white-horizontal">
+        <a href="#"><h2 class="text-center">See Resume</h2></a>
+      <hr class="white-horizontal">
+  </div>   -->    
+<!--         <div class="row align-items-center">
           <div class="col-md-4">
             <div class="p-5">
               <img class="img-fluid rounded-circle" src="css/img/sss.JPG" alt="">
@@ -91,12 +302,44 @@
           <div class="col-md-6">
             <div class="p-5">
               <h2 class="display-5">Coming Soon!</h2>
-<!--               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p> -->
             </div>
           </div>
-        </div>      
+        </div>   -->    
     </div>
-</section
+
+
+
+</section>
+
+  <div style="background-color:rgb(25, 38, 98);" class="row">
+    <div class="col-lg-12">
+      <div class="p-5">
+      <h4 class="display-5 text-center text-white">View My Full Resume</h4>
+    </div>
+  </div>
+</div>
+
+
+  <section class="black-section">
+    <div class="container" id="skills">
+      <div class="row align-items-center">
+
+        <div class="col-md-12">
+           <div class="p-5">
+            <h2 class="display-4 text-center text-white" >Skills</h2>
+      
+          </div>
+          <hr class="white-horizontal">
+
+
+        </div>   
+        <div class="col-md-12">
+          <h3 class="display-5 text-center text-white"> Coming Soon! </h3>
+        </div>     
+
+    </div>
+  </section>
+
     <section>
       <div class="container" id="startup">
         <div class="row align-items-center">
@@ -127,22 +370,18 @@
               
               <p>Kudo is a social networking productivity app focused on self improvement and community based habit building. </p>
 
-              <p> 
-We all have goals we want to achieve, habits we want to build, actions we want to be doing to become better versions of ourselves everyday. The challenge is staying on track, being consistent, staying motivated, and reaching these goals in a systematic way. It can be so discouraging to rely on willpower and grit alone to form habits or accomplish goals.  To remedy this problem and help people overcome that challenge, we built a tool that makes achieving goals easier, more fun, and more meaningful.
-
-</p>
 <p>
-Kudo is an application that allows groups of people to achieve goals together. An incredible thing happens when people share their goals and habit building with their friends and family. What previously felt like a chore that needed to be completed and checked off becomes an engaging, social, and interactive experience.
+It's an application that allows groups of people to achieve goals together. An incredible thing happens when people share their goals and habit building with their friends and family. What previously felt like a chore that needed to be completed and checked off becomes an engaging, social, and interactive experience.
 
               </p>
-              <p><a href="http://kudo-app.herokuapp.com">Check it out!</a></p>
+              <h5><a target="blank" href="http://kudo-app.herokuapp.com">Check Out Kudo!</a></h5>
             </div>
           </div>
         </div>
       </div>
       <div class="bg-light">
 <div class="container">
-  <h2 class="display-4 text-center">Business Competitions</h2>    
+  <h2 class="display-4-sm text-center">Business Competitions</h2>    
 <div class="row align-items-center">
   <div>
 
@@ -191,7 +430,7 @@ Kudo is an application that allows groups of people to achieve goals together. A
     </section>
 
 
-    <section>
+    <section class="black-section">
       <div class="container" id="hackathons">
         <div class="row align-items-center">
 <!--           <div class="col-md-6 order-2">
@@ -199,22 +438,22 @@ Kudo is an application that allows groups of people to achieve goals together. A
           </div> -->
           <div class="col-md-12">
              <div class="p-5">
-              <h2 class="display-4 text-center" >Hackathons</h2>
+              <h2 class="display-4 text-center text-white" >Hackathons</h2>
         
             </div>
-            <hr>
+            <hr class="white-horizontal">
 
 
         </div>        
         <div class="row align-items-center">
-          <div class="col-md-4 order-2">
+          <div class="col-md-4 order-1">
             <div class="p-2">
-              <img class="img-fluid" src="img/gallery.jpg" alt="">
+              <img class="img-fluid" src="img/original.png" alt="">
             </div>
           </div>
 
 
-          <div class="col-md-8 order-1">
+          <div class="col-md-8 order-2">
             <div class="p-5">
               <h2 class="display-5">MHacks 8</h2>
                <h4><i>CarSavior</i></h4>
@@ -240,46 +479,19 @@ Mechanical: Utilize GM’s API to detect mechanical issues and provide fixes
       </div>
     </section>
 
-    <section>
+<section>
+  <hr>
 
-      <div class="container" id="aboutme">
-        <div class="row align-items-center" >
-<!--           <div class="col-md-6 order-2">
-            stuff
-          </div> -->
-          <div class="col-md-12">
-             <div class="p-5">
-              <h2 class="display-4 text-center">About Me</h2>
-        
-            </div>
-            <hr>
-
-
-        </div>        
-        <div class="row align-items-center">
-          <div class="col-md-4">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="css/img/headshot.JPG" alt="">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="p-5">
-              <h2 class="display-5">Coming Soon!</h2>
-<!--               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+</section>
 
     <!-- Contact -->
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Contact Helena</h2>
-            <h3 class="section-subheading text-muted">Narowsk4@msu.edu | HNarowski13@gmail.com | 734-545-3050</h3>
+            <h2 class="display-4 text-white">Contact</h2>
+            <hr>
+            
           </div>
         </div>
         <div class="row">
@@ -310,12 +522,16 @@ Mechanical: Utilize GM’s API to detect mechanical issues and provide fixes
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
                   <button id="sendMessageButton" class="btn btn-xl" type="submit">Send Message</button>
+                  <h5 class="display-4-smaller" style="color: #fed136; padding-top: 30px;">narowsk4@msu.edu | hnarowski13@gmail.com | 734-545-3050</h5>
                 </div>
               </div>
             </form>
           </div>
+
         </div>
+
       </div>
+
     </section>  
 
     <!-- Footer -->

@@ -40,3 +40,45 @@ header.masthead > .overlay {
   height: 250px;
   width: 300px;
 }
+
+.white-horizontal {
+
+    border: 1px solid rgba(255, 255, 255, 0.78);
+}
+
+.black-section {
+    background-color: #1b1b1b;
+}
+.black-section p {
+    color: #868e96!important
+}
+
+.black-section h2 {
+    color:#fed136;
+}
+
+.text-yellow {
+    color:#fed136;
+}
+
+.display-4-sm {
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.display-4-smaller {
+    font-weight: 300;
+    line-height: 0.5;
+}
+
+.black-section h4 {
+    color:#fed136;
+}
+.black-section ul>li {
+    color: #868e96!important;
+}
+
+.timeline .timeline-heading h4
+{
+    color: #fed136 !important;
+}
