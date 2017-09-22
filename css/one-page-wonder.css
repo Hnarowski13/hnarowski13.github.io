@@ -54,11 +54,11 @@ header.masthead > .overlay {
 }
 
 .black-section h2 {
-    color:#fed136;
+    color:rgb(212, 108, 31);
 }
 
 .text-yellow {
-    color:#fed136;
+    color:rgb(212, 108, 31);
 }
 
 .display-4-sm {
@@ -72,7 +72,7 @@ header.masthead > .overlay {
 }
 
 .black-section h4 {
-    color:#fed136;
+    color:rgb(212, 108, 31);
 }
 .black-section ul>li {
     color: #868e96!important;
@@ -80,5 +80,5 @@ header.masthead > .overlay {
 
 .timeline .timeline-heading h4
 {
-    color: #fed136 !important;
+    color: rgb(212, 108, 31) !important;
 }
