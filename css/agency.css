@@ -3,6 +3,13 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+
+
+.white-horizontal {
+
+    border: 1px solid rgba(255, 255, 255, 0.78);
+}
+
  .no-decoration {
   color: black;
  }
@@ -86,11 +93,13 @@ section {
     padding: 50px 0; } }
 
 ::-moz-selection {
-  background: #fed136;
+ /* background: #fed136;*/
+ background: #bed0fb;
   text-shadow: none; }
 
 ::selection {
-  background: #fed136;
+ /* background: #fed136;*/
+ background: #bed0fb;
   text-shadow: none; }
 
 img::selection {
